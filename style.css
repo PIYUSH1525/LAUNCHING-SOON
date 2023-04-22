@@ -148,6 +148,11 @@ section .sci li a{
     opacity:0 ;
     transition: 0.5s;
 }
+.newsletter.active{
+    visibility: visible;
+    opacity:1;
+}
+
 .newsletter h2{
     font-size: 20px;
     color: #312747;
@@ -176,4 +181,76 @@ section .sci li a{
     letter-spacing: 2px;
     box-sizing: border-box;
     cursor: pointer;
+}
+.newsletter .close{
+   position: absolute; 
+   top: 20px;
+   right: 20px;
+   width: 40px;
+   height: 40px;
+   cursor: pointer;
+}
+@media (max-width:991px){
+    section{
+        flex-direction: column;
+        padding-top: 150px;
+        height: auto;
+    }
+    section .contentBx{
+        max-width: 100%;
+    }
+    section .imgBx img{
+        margin-top: 0;
+    }
+}
+@media (max-width:767px){
+    header{
+        padding: 20px 5opx;
+    }
+    section{
+        flex-direction: column;
+        padding-top: 120px 50px 100px;
+        height: auto;
+    }
+    section .contentBx h2{
+        font-size: 40px;
+    }
+    section .contentBx p{
+        font-size: 16px;
+    }
+    section .contentBx .countdown .time{
+        font-size: 30px;
+        min-width: 70px;
+        margin-right: 5px;
+    }
+    section .contentBx .countdown .time span{
+       font-size: 14px; 
+    }
+    section .contentBx a{
+        position: relative;
+        margin-top: 10px;
+        display: inline-block;
+        background: #fff;
+        color: #ff0083;
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding: 10px 25px;
+        text-decoration: none;
+        border-radius: 40px;
+    }
+    section .sci{
+        left: 50px;
+    }
+    .newsletter{
+        width: 90%;
+        padding: 30px;
+    }
+    .newsletter .inputbox input{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .newsletter h2{
+        font-size: 36px;
+        color: #312747;
+    }
 }

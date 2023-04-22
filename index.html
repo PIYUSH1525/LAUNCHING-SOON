@@ -27,7 +27,7 @@
                 <div class="time"><div id="minute"></div><span>Hour</span></div>
                 <div class="time"><div id="second"></div><span>Seconds</span></div>
             </div>
-            <a href="#">Notify ME!</a>
+            <a href="#" onclick="toggle();">Notify ME!</a>
         </div>
         <div class="imgBx">
             <img src="./images/man.png">
@@ -47,8 +47,16 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
+        <img src="images/close.png" class="close" onclick="toggle();">
     </div>
     <script type="text/javascript">
+
+        function toggle(){
+            var newsletter = document.querySelector('.newsletter');
+            newsletter.classList.toggle('active')
+        }
+
+
         var countDate = new Date('May 22, 2023 00:00:00').getTime();
 
         function newYear(){
