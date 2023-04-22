@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: #312747;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: 600;
+}
+header nav{
+    position: relative;
+}
+header nav ul{
+    position: relative;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #ff0083;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 100px;
+}
+section .contentBx{
+    position: relative;
+    max-width: 600px;
+    z-index: 1000;
+}
+section .contentBx h2{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+section .contentBx p{
+    font-size: 18px;
+    color: #fff;
+}
+section .contentBx .countdown{
+    display: flex;
+    margin: 20px 0;
+}
+section .contentBx .countdown .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin-right: 20px;
+    font-size: 48px;
+    min-width: 110px;
+    font-weight: 700;
+    padding: 10px 5px 15px;
+    border-radius: 4px;
+    color: #ff0083;
+}
+section .contentBx .countdown .time span{
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #312747;
+}
+section .contentBx a{
+    position: relative;
+    margin-top: 10px;
+    display: inline-block;
+    background: #ff0083;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+section .imgBx img{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 100px;
+    z-index: 2;
+    /* pointer-events: none; */
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+section .sci{
+      position: absolute;
+      bottom: 40px;
+      left: 100px;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      filter: invert(1);
+}
+section .sci li{
+    list-style: none;
+}
+section .sci li a{
+    display: block;
+    margin-right: 20px;
+    transform: scale();
+}
