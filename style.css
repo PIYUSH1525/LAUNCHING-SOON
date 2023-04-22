@@ -205,7 +205,7 @@ section .sci li a{
 }
 @media (max-width:767px){
     header{
-        padding: 20px 5opx;
+        padding: 20px 50px;
     }
     section{
         flex-direction: column;
