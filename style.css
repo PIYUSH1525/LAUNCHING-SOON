@@ -134,3 +134,46 @@ section .sci li a{
     margin-right: 20px;
     transform: scale();
 }
+.newsletter{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 60px;
+    background: #fff;
+    z-index: 10000;
+    box-shadow: 0 0 0 100vh rgba(49, 39, 71, 0.95);
+    visibility: hidden;
+    opacity:0 ;
+    transition: 0.5s;
+}
+.newsletter h2{
+    font-size: 20px;
+    color: #312747;
+}
+.newsletter p{
+    font-size: 20px;
+    color: #312747;
+}
+.newsletter .inputbox{
+    margin-top: 20px;
+}
+.newsletter .inputbox input{
+    padding: 10px;
+    outline: none;
+    width: 300px;
+    font-size: 18px;
+    border: 1px solid #999;
+}
+.newsletter .inputbox input[type="submit"]{
+    padding: 10px;
+    outline: none;
+    width: 140px;
+    color: #fff;
+    background: #ff0083;
+    border: 1px solid #ff0083;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
