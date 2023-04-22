@@ -190,6 +190,8 @@ section .sci li a{
    height: 40px;
    cursor: pointer;
 }
+
+
 @media (max-width:991px){
     section{
         flex-direction: column;
@@ -252,5 +254,11 @@ section .sci li a{
     .newsletter h2{
         font-size: 36px;
         color: #312747;
+    }
+}
+
+@media (max-width:480px) {
+    body{
+        
     }
 }
