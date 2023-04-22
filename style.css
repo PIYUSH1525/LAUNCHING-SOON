@@ -258,7 +258,25 @@ section .sci li a{
 }
 
 @media (max-width:480px) {
-    body{
+    header{
+        padding: 30px 40px 10px 40px ;
+    }
+    section {
+        padding:140px 50px 20px 60px ;
         
     }
+    section .contentBx .countdown{
+        padding:10px 40px 10px 40px;
+    }
+    section .contentBx h2{
+        font-size: 60px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    section .contentBx p{
+        padding: 10px;
+        font-size: 18px;
+        color: #fff;
+
 }
